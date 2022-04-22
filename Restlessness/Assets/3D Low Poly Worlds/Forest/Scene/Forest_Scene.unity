@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.5
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16742626, g: 0.07241551, b: 0.24567401, a: 0.5}
+  m_IndirectSpecularColor: {r: 0.16743705, g: 0.0724361, b: 0.24568072, a: 0.5}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3875,7 +3875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!135 &179570367
 SphereCollider:
@@ -4253,7 +4253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!1001 &200903347
 PrefabInstance:
@@ -5804,7 +5804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!135 &264987510
 SphereCollider:
@@ -8897,7 +8897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b001779c12047f091d92f15efab986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: 55bcfa371a1fc9f43b8e4d894e15d0db, type: 3}
   healtQTY: 5
 --- !u!1001 &425452568
 PrefabInstance:
@@ -10495,6 +10495,134 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 444394, guid: b0b49bf809a8d9d41844e8c55171b5a0, type: 3}
   m_PrefabInstance: {fileID: 493905422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &496168523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 496168524}
+  - component: {fileID: 496168525}
+  m_Layer: 0
+  m_Name: Musica fondo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496168524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496168523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1017142534}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &496168525
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496168523}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7759956049fc53b42b3e648caf539dfe, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &498453333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10876,7 +11004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &526808555
 PrefabInstance:
@@ -12749,7 +12877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!1 &633761341
 GameObject:
   m_ObjectHideFlags: 0
@@ -13524,7 +13652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: e67c968afb3bfcc4bb7a2a24e531f4b4, type: 3}
   healtQTY: 5
 --- !u!1001 &667743846
 PrefabInstance:
@@ -15098,7 +15226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1 &729647638
 GameObject:
@@ -17842,7 +17970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!135 &873397579
 SphereCollider:
@@ -17956,7 +18084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!135 &876515894
 SphereCollider:
@@ -19493,7 +19621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _heartPickUpSound: {fileID: 8300000, guid: b95ddde5667256a40af141b270753707, type: 3}
 --- !u!1001 &990479859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20261,6 +20389,7 @@ Transform:
   - {fileID: 1431985463}
   - {fileID: 1519316487}
   - {fileID: 1146108478}
+  - {fileID: 496168524}
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21509,7 +21638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!1001 &1059427095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21947,7 +22076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: b95ddde5667256a40af141b270753707, type: 3}
 --- !u!1 &1085040292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 122312, guid: 6a2ed0a5fb8fe78459b5afb51895d6c4, type: 3}
@@ -24064,7 +24193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1152318865
 PrefabInstance:
@@ -26172,7 +26301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: a4a9327e98855524c846cc8e2f559e96, type: 3}
+  _healthsound: {fileID: 8300000, guid: 8c2bd0dd6cbbdd248a7e3263f65fe9ad, type: 3}
   healtQTY: 5
 --- !u!135 &1284971413
 SphereCollider:
@@ -27290,7 +27419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e1d949655300345b8878f7544beca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPickUpSound: {fileID: 0}
+  _coinPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
 --- !u!1001 &1320123482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29243,7 +29372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1431985462
 PrefabInstance:
@@ -29348,7 +29477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!4 &1436875877 stripped
 Transform:
@@ -30442,7 +30571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1486492199
 PrefabInstance:
@@ -30866,7 +30995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!1001 &1513505464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31116,7 +31245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1519554443
 PrefabInstance:
@@ -31491,7 +31620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: e67c968afb3bfcc4bb7a2a24e531f4b4, type: 3}
   healtQTY: 5
 --- !u!1001 &1536798471
 PrefabInstance:
@@ -32240,7 +32369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1569684335
 PrefabInstance:
@@ -32311,6 +32440,7 @@ GameObject:
   - component: {fileID: 1573037011}
   - component: {fileID: 1573037009}
   - component: {fileID: 1573037008}
+  - component: {fileID: 1573037013}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -32392,6 +32522,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -5.7, y: -1220, z: -0.39519998}
+--- !u!82 &1573037013
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573037007}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7759956049fc53b42b3e648caf539dfe, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1573077189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33630,7 +33856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: b95ddde5667256a40af141b270753707, type: 3}
 --- !u!1001 &1625958446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34078,7 +34304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1637028112
 PrefabInstance:
@@ -35384,7 +35610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: b95ddde5667256a40af141b270753707, type: 3}
 --- !u!1001 &1701417888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35711,7 +35937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b001779c12047f091d92f15efab986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: 55bcfa371a1fc9f43b8e4d894e15d0db, type: 3}
   healtQTY: 5
 --- !u!1001 &1718594133
 PrefabInstance:
@@ -36572,7 +36798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1 &1756347986
 GameObject:
@@ -36735,7 +36961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e1d949655300345b8878f7544beca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPickUpSound: {fileID: 0}
+  _coinPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
 --- !u!1001 &1766814942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37091,7 +37317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1778860856
 PrefabInstance:
@@ -38467,7 +38693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b001779c12047f091d92f15efab986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: 55bcfa371a1fc9f43b8e4d894e15d0db, type: 3}
   healtQTY: 5
 --- !u!1001 &1827946608
 PrefabInstance:
@@ -38577,7 +38803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: e67c968afb3bfcc4bb7a2a24e531f4b4, type: 3}
   healtQTY: 5
 --- !u!1001 &1832709827
 PrefabInstance:
@@ -39840,7 +40066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e1d949655300345b8878f7544beca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPickUpSound: {fileID: 0}
+  _coinPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
 --- !u!1001 &1888143045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40027,7 +40253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: e67c968afb3bfcc4bb7a2a24e531f4b4, type: 3}
   healtQTY: 5
 --- !u!1001 &1890271199
 PrefabInstance:
@@ -40899,7 +41125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1 &1930072330 stripped
 GameObject:
@@ -40931,7 +41157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &1930183503
 PrefabInstance:
@@ -41192,7 +41418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b001779c12047f091d92f15efab986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: 55bcfa371a1fc9f43b8e4d894e15d0db, type: 3}
   healtQTY: 5
 --- !u!1001 &1941290461
 PrefabInstance:
@@ -42239,7 +42465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e1d949655300345b8878f7544beca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPickUpSound: {fileID: 0}
+  _coinPickUpSound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
 --- !u!1001 &1985076796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42625,7 +42851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!4 &2006691161 stripped
 Transform:
@@ -43190,7 +43416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &2036085254
 PrefabInstance:
@@ -43284,7 +43510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!1 &2038443051 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b332dc24cbb08144da2f112f82406700, type: 3}
@@ -43315,7 +43541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!4 &2039782006 stripped
 Transform:
@@ -43869,7 +44095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &2073439832
 PrefabInstance:
@@ -44047,7 +44273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!4 &2076287394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 424174, guid: 5435849ae501ea046865d3be14879703, type: 3}
@@ -44358,7 +44584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: e67c968afb3bfcc4bb7a2a24e531f4b4, type: 3}
   healtQTY: 5
 --- !u!4 &2091075264 stripped
 Transform:
@@ -44712,7 +44938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d98230308bc471c91af375e0cbe824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _heartPickUpSound: {fileID: 0}
+  _heartPickUpSound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
 --- !u!1001 &2113095886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44805,7 +45031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
 --- !u!1001 &2120911729
 PrefabInstance:
@@ -45131,7 +45357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b001779c12047f091d92f15efab986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 8300000, guid: 258d193ff366de44d94512c2374cc856, type: 3}
+  _healthsound: {fileID: 8300000, guid: 55bcfa371a1fc9f43b8e4d894e15d0db, type: 3}
   healtQTY: 5
 --- !u!4 &2135712292 stripped
 Transform:
@@ -45313,5 +45539,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da2fc19d146544a395ebe402bb0cd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthsound: {fileID: 0}
+  _healthsound: {fileID: 8300000, guid: 06fcd09197bac8c4d83aae5db35f8222, type: 3}
   healtQTY: 5
