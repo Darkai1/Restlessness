@@ -58,6 +58,7 @@
      <Compile Include="Assets\_Scripts\Destructable.cs" />
      <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\Vfxflor.cs" />
      <Compile Include="Assets\_Scripts\Trampacuchilla.cs" />
      <Compile Include="Assets\MHLab\StickyNotes\Scripts\StickyNoteAdvanced.cs" />
      <Compile Include="Assets\Particle Attractor by Moonflower Carnivore\Scripts\particleAttractorSelf.cs" />
@@ -101,7 +102,6 @@
      <Compile Include="Assets\PowerUp\Scripts\ScaleParticles.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\_Scripts\Heart.cs" />
-     <Compile Include="Assets\_Scripts\Vfxflor.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
