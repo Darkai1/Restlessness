@@ -25716,6 +25716,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40bdb28fa4a462047bbf580237219fa0, type: 3}
+--- !u!1 &1163283920 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 320901787135767231, guid: aec47a5e1f851dc40b76b569e4a8dab6, type: 3}
+  m_PrefabInstance: {fileID: 1674267952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1163283924
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163283920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.02225223
+  m_Direction: 1
+  m_Center: {x: -0.000016483014, y: 0.0056427633, z: -0.000010712713}
 --- !u!1 &1164517412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127752, guid: c8fe80c435a3a714fb6198697a80a58b, type: 3}
@@ -31300,6 +31319,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2850018718217169859, guid: b1c5da27b58d02b41a897e9433a93a57, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850018718217169859, guid: b1c5da27b58d02b41a897e9433a93a57, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9442101
+      objectReference: {fileID: 0}
+    - target: {fileID: 2850018718217169859, guid: b1c5da27b58d02b41a897e9433a93a57, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8632076
+      objectReference: {fileID: 0}
     - target: {fileID: 2850018718365564900, guid: b1c5da27b58d02b41a897e9433a93a57, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -35663,7 +35694,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100084, guid: 7a538f29bad700d47a681a6568b943b4, type: 3}
   m_PrefabInstance: {fileID: 1626315439}
   m_PrefabAsset: {fileID: 0}
---- !u!195 &1614850941
+--- !u!114 &1614850947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614850938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a730a8636f4a2e644ac266ab4b277fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1163283920}
+  SpiderDistanceRun: 10
+--- !u!195 &1614850948
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35673,7 +35718,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -35685,7 +35730,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!136 &1614850942
+--- !u!136 &1614850949
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35695,11 +35740,11 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.2307989
-  m_Height: 0.4615978
-  m_Direction: 0
-  m_Center: {x: 0, y: 0.22657834, z: 0.01750856}
---- !u!23 &1614850943
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1614850950
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
