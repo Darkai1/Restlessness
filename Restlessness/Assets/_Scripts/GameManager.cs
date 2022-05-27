@@ -25,10 +25,10 @@ public class GameManager : MonoBehaviour
     {
         if(gameOver==false)
         {
-            if(_runestowin<=3)
+            if(_runestowin<=4)
             {
                 _runestowin=_runestowin+ObjectToWin;
-                if(_runestowin==3)
+                if(_runestowin==4)
                 {
                     winner=true;
                     InterfaceManager();
