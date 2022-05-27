@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     private GameObject _hitMarkerPrefab;
     [SerializeField]
     private AudioSource _weaponAudio;
+    
 
     [SerializeField]
     private int currentAmmo;
@@ -49,8 +50,7 @@ public class Player : MonoBehaviour
         //Inicia la cantidad de balas
         currentAmmo = maxAmmo;
         _uiManager = GameObject.Find("Canvas").GetComponent<IU_Manager>();
-        _uiManager.UpdateAmmo(currentAmmo);        
-
+        _uiManager.UpdateAmmo(currentAmmo);
     }
 
   
@@ -196,9 +196,10 @@ public class Player : MonoBehaviour
     public void RestHeatl(float heal)
     {
         playerLife = playerLife - heal;
-        if (playerLife < 100)
+        if (playerLife <= 0)
         {
             Debug.Log("Game Over");
+            GameManager.Instance.PlayerLose(true);
         }
     }
 }
