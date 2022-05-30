@@ -11,6 +11,12 @@ public class SpiderMv : MonoBehaviour
     public GameObject Player;
 
     public float SpiderDistanceRun = 4.0f;
+  
+    [SerializeField]
+    private AudioClip _healthsound;
+
+    [SerializeField]
+    private float healtQTY = 5.0f;  
     void Start()
     {
         spider = GetComponent<NavMeshAgent>();
@@ -28,6 +34,16 @@ public class SpiderMv : MonoBehaviour
             Vector3 newPos = transform.position - dirToPlayer;
 
             spider.SetDestination(newPos);
+        }
+    }
+     public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Player player = other.GetComponent<Player>();
+            player.RestHeatl(healtQTY);
+            AudioSource.PlayClipAtPoint(_healthsound, transform.position, 1f);
+
         }
     }
 }

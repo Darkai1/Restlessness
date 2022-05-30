@@ -35708,6 +35708,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 1163283920}
   SpiderDistanceRun: 10
+  _healthsound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
+  healtQTY: 5
 --- !u!195 &1614850948
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -35738,7 +35740,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614850938}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 1
