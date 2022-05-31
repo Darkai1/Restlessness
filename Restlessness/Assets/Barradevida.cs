@@ -1,30 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Barradevida : MonoBehaviour
 {
-    private Slider slider;
-
+    public GameObject Player;
+    public TMP_Text healthText;
+    public Image healthBar;
+    float currentHealth;
+    float maxHealth = 100;
+    float lerpSpeed;
+    
     // Start is called before the first frame update
-    private void Start()
+    void Start()
     {
-        slider = GetComponent<Slider>();
+        
     }
 
     // Update is called once per frame
-    public void CambiarMaxHP(float MaxHP){
-        slider.maxValue = MaxHP;
-    }
-    
-    public void CambiarCrtHP(float HPamount){
-        slider.value = HPamount;
+    void Update()
+    {
+        healthText.text = "Current health: " + currentHealth + "%";
+        currentHealth = Player.GetComponent<Player>().playerLife;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+        lerpSpeed = 3f * Time.deltaTime;
+        HealthBarFiller();
+        ColorChanger();
     }
 
-    public void InicializarBarraDeVida(float HPamount)
+    void HealthBarFiller()
     {
-        CambiarMaxHP(HPamount);
-        CambiarCrtHP(HPamount);
+        healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, currentHealth / maxHealth, lerpSpeed);
+    }
+
+    void ColorChanger()
+    {
+        Color healthColor = Color.Lerp(Color.red, Color.white, (currentHealth / maxHealth));
+        healthBar.color = healthColor;
     }
 }
