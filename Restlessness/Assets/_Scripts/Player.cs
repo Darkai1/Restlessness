@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     
     [SerializeField]
     private float _speed =3.5f;
+    private float boostTimer;
+    private bool boosting;
+
     [SerializeField]
     private float _gravity = 9.81f;
     [SerializeField]
@@ -51,6 +54,8 @@ public class Player : MonoBehaviour
         currentAmmo = maxAmmo;
         _uiManager = GameObject.Find("Canvas").GetComponent<IU_Manager>();
         _uiManager.UpdateAmmo(currentAmmo);
+        boostTimer = 0;
+        boosting = false;
     }
 
   
@@ -96,7 +101,26 @@ public class Player : MonoBehaviour
 
                 }
         }
+        if (boosting)
+        {
+            boostTimer += Time.deltaTime;
+            if(boostTimer >= 3)
+            {
+                _speed = 3.5f;
+                boostTimer = 0;
+                boosting = false;
+            }
+        }
 
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "SpeedBoost")
+        {
+            boosting = true;
+            _speed = 6f;
+            Destroy(other.gameObject);
+        }
     }
 
     void Shoot()

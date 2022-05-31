@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Vfxflor : MonoBehaviour
 {
-    public GameObject test;
+    public GameObject VFX;
+    public GameObject Sangre;
 
-    public void Start() {
-        if(test!=null)
-         test.SetActive(false);
+    public void Start()
+     {
+        if(VFX!=null)
+         VFX.SetActive(false);
+        if(Sangre!=null)
+         Sangre.SetActive(false);
      }
+     
   
     public void OnTriggerStay(Collider other)
     {
@@ -17,7 +22,8 @@ public class Vfxflor : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Ingresa Player");
-            test.SetActive(true);
+            VFX.SetActive(true);
+            Sangre.SetActive(true);
         }
     }
 
@@ -27,7 +33,9 @@ public class Vfxflor : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Ingresa Player");
-            test.SetActive(false);
+            VFX.SetActive(false);
+            Sangre.SetActive(false);
         }
     }
+    
 }
