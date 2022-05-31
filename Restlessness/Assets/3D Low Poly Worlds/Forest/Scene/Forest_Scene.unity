@@ -36675,8 +36675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1163283920}
-  SpiderDistanceRun: 10
-  _healthsound: {fileID: 8300000, guid: d20a95385b4a6aa46bac343b9226267d, type: 3}
+  SpiderDistanceRun: 8
+  _healthsound: {fileID: 8300000, guid: 590feba8ca95e3147ba325650655ce7e, type: 3}
   healtQTY: 5
 --- !u!195 &1614850948
 NavMeshAgent:
@@ -36688,7 +36688,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 100
+  m_Speed: 50
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -36710,10 +36710,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.50977534
+  m_Height: 1.0195509
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 1.3347388e-10, y: 0, z: 0.00977511}
 --- !u!23 &1614850950
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -118,7 +118,7 @@ public class Player : MonoBehaviour
         if(other.tag == "SpeedBoost")
         {
             boosting = true;
-            _speed = 6f;
+            _speed = 8f;
             Destroy(other.gameObject);
         }
     }
