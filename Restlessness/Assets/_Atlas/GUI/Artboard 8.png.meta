@@ -102,7 +102,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Artboard 8_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1576
+        width: 152
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6834f8ef5e582664089938b000c6ccb0
+      internalID: 130639075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1576
+        width: 477
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568946f4be026d143a0bcdac2205c838
+      internalID: -237562801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 679
+        width: 920
+        height: 1227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78058812df5d4fd4fb34078d3ad2faad
+      internalID: 1328406462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_3
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1488
+        width: 803
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a254a700695f64388ecab1acbe8631
+      internalID: 8030977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1321
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403f1814fcffaeb498d008f65513f1c3
+      internalID: -288582293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1321
+        width: 477
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e73c8a324fe42438440c1565c2206a
+      internalID: 1619944669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_6
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1243
+        width: 677
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdae3c9a5dd3e734baee170ef2a2039e
+      internalID: -99259142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1068
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dec01b862b79ed4cb6dbfedfd537cf7
+      internalID: -1286058241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1068
+        width: 477
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e351ec3a5fcf841823fad92cc04b47
+      internalID: 1828412845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FLECHA
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 889
+        width: 448
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7b4a35599ce6242972222a8acc6a70
+      internalID: -1002180523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_10
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 889
+        width: 454
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87beac6542b08e64483deb24dccd0fd2
+      internalID: -575268315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 814
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f84397335f5854eb60326acee5aac3
+      internalID: 1169444513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 8_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 814
+        width: 477
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1901be7a23d288444a58a28fe0c73999
+      internalID: 308534485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -113,7 +386,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Artboard 8_1: -237562801
+      Artboard 8_4: -288582293
+      Artboard 8_7: -1286058241
+      Artboard 8_2: 1328406462
+      Artboard 8_12: 308534485
+      Artboard 8_0: 130639075
+      Artboard 8_11: 1169444513
+      Artboard 8_6: -99259142
+      Artboard 8_10: -575268315
+      FLECHA: -1002180523
+      Artboard 8_3: 8030977
+      Artboard 8_8: 1828412845
+      Artboard 8_5: 1619944669
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -4519,7 +4519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd9ef4d413310d24588c0c8ea08ac0cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VFX: {fileID: 0}
+  VFX: {fileID: 1580679457}
   Sangre: {fileID: 301660145}
 --- !u!1001 &200903347
 PrefabInstance:
@@ -35804,6 +35804,11 @@ PrefabInstance:
 --- !u!4 &1580679456 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4765838103219372, guid: d5f26854a8904624c8073139cd2eb346, type: 3}
+  m_PrefabInstance: {fileID: 1580679455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1580679457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834194341294532, guid: d5f26854a8904624c8073139cd2eb346, type: 3}
   m_PrefabInstance: {fileID: 1580679455}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1582690609
